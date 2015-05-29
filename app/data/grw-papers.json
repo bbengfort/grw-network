@@ -1,0 +1,216 @@
+[
+  {
+    "imports": [
+      "root.Ohio_Northern_U.Alexandra_Coman", 
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.NRL.Mark_Wilson", 
+      "root.NRL.David_W_Aha", 
+      "root.Lehigh_U.Dustin_Dannenhauer", 
+      "root.Wright_State_University.Michael_T_Cox"
+    ], 
+    "name": "root.Lehigh_U.Hector_Munoz_Avila"
+  }, 
+  {
+    "imports": [
+      "root.Georgia_Tech.Spencer_Rugaber", 
+      "root.UC_Irvine.Lee_Martie"
+    ], 
+    "name": "root.Georgia_Tech.Ashok_Goel"
+  }, 
+  {
+    "imports": [
+      "root.Georgia_Tech.Spencer_Rugaber", 
+      "root.Georgia_Tech.Ashok_Goel"
+    ], 
+    "name": "root.UC_Irvine.Lee_Martie"
+  }, 
+  {
+    "imports": [
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.GMU.Alexei_Samsonovich"
+  }, 
+  {
+    "imports": [
+      "root.SIFT.Robert_P_Goldman", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.DOLL_Labs.Paul_Robertson", 
+      "root.DOLL_Labs.Dan_Cerys", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.SIFT.Robert_P_Goldman"
+    ], 
+    "name": "root.SIFT.Mark_Burstein"
+  }, 
+  {
+    "imports": [
+      "root.UC_Santa_Cruz.Michael_Leece"
+    ], 
+    "name": "root.UC_Santa_Cruz.Arnav_Jhala"
+  }, 
+  {
+    "imports": [
+      "root.SIFT.Robert_P_Goldman", 
+      "root.SIFT.Mark_Burstein", 
+      "root.DOLL_Labs.Paul_Robertson", 
+      "root.DOLL_Labs.Dan_Cerys", 
+      "root.SIFT.Mark_Burstein", 
+      "root.SIFT.Robert_P_Goldman"
+    ], 
+    "name": "root.SIFT.Ugur_Kuter"
+  }, 
+  {
+    "imports": [
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.NRL_NRC.Mak_Roberts"
+  }, 
+  {
+    "imports": [
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.Knexus_Research.Michael_Floyd", 
+      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.Knexus_Research.Matt_Molineaux"
+  }, 
+  {
+    "imports": [
+      "root.SIFT.Robert_P_Goldman", 
+      "root.SIFT.Mark_Burstein", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.DOLL_Labs.Dan_Cerys"
+    ], 
+    "name": "root.DOLL_Labs.Paul_Robertson"
+  }, 
+  {
+    "imports": [
+      "root.Ohio_Northern_U.Alexandra_Coman", 
+      "root.Lehigh_U.Hector_Munoz_Avila", 
+      "root.Knexus_Research.Matt_Molineaux", 
+      "root.Knexus_Research.Michael_Floyd", 
+      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.Knexus_Research.Kellen_Gillespie"
+  }, 
+  {
+    "imports": [
+      "root.UC_Santa_Cruz.Arnav_Jhala"
+    ], 
+    "name": "root.UC_Santa_Cruz.Michael_Leece"
+  }, 
+  {
+    "imports": [
+      "root.UNC_Charlotte.Mary_Lou_Maher", 
+      "root.U_New_South_Wales.Bing_Wang"
+    ], 
+    "name": "root.U_New_South_Wales.Kathryn_Merrick"
+  }, 
+  {
+    "imports": [
+      "root.Lehigh_U.Hector_Munoz_Avila", 
+      "root.Wright_State_University.Michael_T_Cox"
+    ], 
+    "name": "root.Lehigh_U.Dustin_Dannenhauer"
+  }, 
+  {
+    "imports": [
+      "root.UNC_Charlotte.Mary_Lou_Maher", 
+      "root.U_New_South_Wales.Kathryn_Merrick"
+    ], 
+    "name": "root.U_New_South_Wales.Bing_Wang"
+  }, 
+  {
+    "imports": [
+      "root.Georgia_Tech.Ashok_Goel", 
+      "root.UC_Irvine.Lee_Martie"
+    ], 
+    "name": "root.Georgia_Tech.Spencer_Rugaber"
+  }, 
+  {
+    "imports": [
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.Knexus_Research.Matt_Molineaux", 
+      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.Knexus_Research.Michael_Floyd"
+  }, 
+  {
+    "imports": [
+      "root.SIFT.Robert_P_Goldman", 
+      "root.SIFT.Mark_Burstein", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.DOLL_Labs.Paul_Robertson"
+    ], 
+    "name": "root.DOLL_Labs.Dan_Cerys"
+  }, 
+  {
+    "imports": [
+      "root.GMU.Alexei_Samsonovich", 
+      "root.NRL_NRC.Mak_Roberts", 
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.Knexus_Research.Matt_Molineaux", 
+      "root.Knexus_Research.Michael_Floyd", 
+      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.Lehigh_U.Hector_Munoz_Avila", 
+      "root.NRL.Mark_Wilson"
+    ], 
+    "name": "root.NRL.David_W_Aha"
+  }, 
+  {
+    "imports": [
+      "root.Lehigh_U.Hector_Munoz_Avila", 
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.NRL.Mark_Wilson"
+  }, 
+  {
+    "imports": [
+      "root.SIFT.Mark_Burstein", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.DOLL_Labs.Paul_Robertson", 
+      "root.DOLL_Labs.Dan_Cerys", 
+      "root.SIFT.Ugur_Kuter", 
+      "root.SIFT.Mark_Burstein"
+    ], 
+    "name": "root.SIFT.Robert_P_Goldman"
+  }, 
+  {
+    "imports": [
+      "root.U_Maryland.Benjamin_Bengfort", 
+      "root.Lehigh_U.Hector_Munoz_Avila", 
+      "root.Lehigh_U.Dustin_Dannenhauer"
+    ], 
+    "name": "root.Wright_State_University.Michael_T_Cox"
+  }, 
+  {
+    "imports": [
+      "root.Wright_State_University.Michael_T_Cox"
+    ], 
+    "name": "root.U_Maryland.Benjamin_Bengfort"
+  }, 
+  {
+    "imports": [
+      "root.U_New_South_Wales.Kathryn_Merrick", 
+      "root.U_New_South_Wales.Bing_Wang"
+    ], 
+    "name": "root.UNC_Charlotte.Mary_Lou_Maher"
+  }, 
+  {
+    "imports": [
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.Lehigh_U.Hector_Munoz_Avila"
+    ], 
+    "name": "root.Ohio_Northern_U.Alexandra_Coman"
+  }, 
+  {
+    "imports": [
+      "root.Knexus_Research.Kellen_Gillespie", 
+      "root.Knexus_Research.Matt_Molineaux", 
+      "root.Knexus_Research.Michael_Floyd", 
+      "root.NRL.David_W_Aha"
+    ], 
+    "name": "root.NRC_NRL.Swaroop_Vattam"
+  }
+]

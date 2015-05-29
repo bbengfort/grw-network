@@ -13,7 +13,7 @@
     // Important Variables
     this.mpos    = null;
     this.rotate  = 0;
-    this.url     = "/data/test-data.json";
+    this.url     = "/data/grw-papers.json";
 
     // D3 Layout
     this.splines = [];
