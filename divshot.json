@@ -1,0 +1,6 @@
+{
+  "name": "grw-network",
+  "root": "app",
+  "clean_urls": true,
+  "error_page": "error.html"
+}
