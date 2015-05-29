@@ -130,9 +130,11 @@ def create_graph():
     lookup = dict((p.split(".")[-1], p) for p in people.keys())
 
     for paper in papers.values():
-        paper["name"] = lookup[paper["name"]]
-        paper["imports"] = [lookup[name] for name in paper["imports"]]
-        yield paper
+        name = lookup[paper["name"]]
+        people[name]["imports"] = list(lookup[name] for name in paper["imports"])
+
+    for people in people.values():
+        yield people
 
 ##########################################################################
 ## Main Method
