@@ -24,6 +24,8 @@
     // Elements
     this.elem    = null;
     this.svg     = null;
+    this.nodes   = [];
+    this.links   = [];
 
     this.init = function(selector) {
 
@@ -163,18 +165,19 @@
 
       d3.json(self.url, function(data) {
         var bbox     = self.bbox();
-        var nodes    = self.cluster.nodes(packages.root(data));
-        var links    = packages.imports(nodes);
-        self.splines = self.bundle(links);
+        self.nodes   = self.cluster.nodes(packages.root(data));
+        self.links   = packages.imports(self.nodes);
+        self.splines = self.bundle(self.links);
+        var groups   = _.without(_.map(graph.nodes, function(obj) { if (obj.name.split(".").length == 2) { return obj.key; } }), undefined);
 
         self.path = self.svg.selectAll("path.link")
-            .data(links)
+            .data(self.links)
           .enter().append("svg:path")
             .attr("class", function(d) { return "link source-" + d.source.key + " target-" + d.target.key; })
             .attr("d", function(d,i) { return self.line(self.splines[i]); });
 
         var groupData = self.svg.selectAll("g.group")
-            .data(nodes.filter(function(d) { return (d.key == 'Jobs' || d.key == 'Freelance' || d.key == 'Bayard') && d.children; }))
+            .data(self.nodes.filter(function(d) { return _.contains(groups, d.key) && d.children; }))
           .enter().append("group")
             .attr("class", "group");
 
@@ -193,7 +196,7 @@
             .style("fill-opacity", 0.5);
 
         self.svg.selectAll("g.node")
-            .data(nodes.filter(function(n) { return !n.children; }))
+            .data(self.nodes.filter(function(n) { return !n.children; }))
           .enter().append("svg:g")
             .attr("class", "node")
             .attr("id", function(d) { return "node-" + d.key; })

@@ -62,13 +62,13 @@
     "imports": [
       "root.NRL.David_W_Aha"
     ], 
-    "name": "root.NRL_NRC.Mak_Roberts"
+    "name": "root.NRL.Mak_Roberts"
   }, 
   {
     "imports": [
       "root.Knexus_Research.Kellen_Gillespie", 
       "root.Knexus_Research.Michael_Floyd", 
-      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.Swaroop_Vattam", 
       "root.NRL.David_W_Aha"
     ], 
     "name": "root.Knexus_Research.Matt_Molineaux"
@@ -88,7 +88,7 @@
       "root.Lehigh_U.Hector_Munoz_Avila", 
       "root.Knexus_Research.Matt_Molineaux", 
       "root.Knexus_Research.Michael_Floyd", 
-      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.Swaroop_Vattam", 
       "root.NRL.David_W_Aha"
     ], 
     "name": "root.Knexus_Research.Kellen_Gillespie"
@@ -131,7 +131,7 @@
     "imports": [
       "root.Knexus_Research.Kellen_Gillespie", 
       "root.Knexus_Research.Matt_Molineaux", 
-      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.Swaroop_Vattam", 
       "root.NRL.David_W_Aha"
     ], 
     "name": "root.Knexus_Research.Michael_Floyd"
@@ -148,11 +148,11 @@
   {
     "imports": [
       "root.GMU.Alexei_Samsonovich", 
-      "root.NRL_NRC.Mak_Roberts", 
+      "root.NRL.Mak_Roberts", 
       "root.Knexus_Research.Kellen_Gillespie", 
       "root.Knexus_Research.Matt_Molineaux", 
       "root.Knexus_Research.Michael_Floyd", 
-      "root.NRC_NRL.Swaroop_Vattam", 
+      "root.NRL.Swaroop_Vattam", 
       "root.Lehigh_U.Hector_Munoz_Avila", 
       "root.NRL.Mark_Wilson"
     ], 
@@ -211,6 +211,6 @@
       "root.Knexus_Research.Michael_Floyd", 
       "root.NRL.David_W_Aha"
     ], 
-    "name": "root.NRC_NRL.Swaroop_Vattam"
+    "name": "root.NRL.Swaroop_Vattam"
   }
 ]
